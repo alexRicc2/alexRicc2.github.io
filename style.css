@@ -79,8 +79,7 @@ a:hover {
 }
 #contats a{
 	color: white;
-	padding: 6px 25px;
-	margin-left: 35vh;
+	padding: 6px 20px;
 	text-decoration: none;
 	text-align: center;
 }
@@ -145,6 +144,13 @@ a:hover {
 
 	#contats a{
 		margin-left: 8vh;
-		padding: 6px 6px;
+		padding: 6px 14px;
+	}
+}
+
+@media (max-width: 700px){
+
+	#contats{
+		flex-direction: column;
 	}
 }
