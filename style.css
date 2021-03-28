@@ -143,7 +143,6 @@ a:hover {
 	}
 
 	#contats a{
-		margin-left: 8vh;
 		padding: 6px 14px;
 	}
 }
@@ -152,5 +151,8 @@ a:hover {
 
 	#contats{
 		flex-direction: column;
+	}
+	#contats a{
+		margin-left: 0px;
 	}
 }
