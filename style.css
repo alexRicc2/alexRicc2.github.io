@@ -112,6 +112,14 @@ a:hover {
 	.checkbtn {
 		display: block;
 	}
+	label.logo{
+		font-size: 30px;
+		padding-left: 25px;
+	}
+	#textI h1{
+		font-size: 30px;
+	}
+
 	nav ul{
 		position: fixed;
 		width: 100%;
