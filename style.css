@@ -1,0 +1,149 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: montserrat;
+}
+nav {
+	position: fixed;
+	top: 0px;
+	background: #2a48a8;
+	height: 60px;
+	width: 100%;
+}
+label.logo {
+	color: white;
+	font-size: 35px;
+	line-height: 60px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 60px;
+	margin: 0 -1px;
+}
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	padding: 20px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a:hover {
+	background: #1d075f;
+	transition: .5s;
+}
+.checkbtn {
+	width: 50px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+    display: none;
+}
+
+#textI{
+
+	background-color: #b7c3f3;
+	width: 100%;
+	padding-left: 15px;
+	padding-top: 80px;
+	padding-bottom: 15px;
+}
+
+#textI h1{
+	font-family: 'Lobster' , cursive;
+	margin-bottom: 7px;
+	font-size: 50px;
+}
+
+#contats{
+	background-color: #040f0f;
+	display: flex;
+}
+#contats a{
+	color: white;
+	padding: 6px 25px;
+	margin-left: 35vh;
+	text-decoration: none;
+	text-align: center;
+}
+
+#contats a:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+@media (max-width: 984px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+
+	#textI h1{
+		font-size: 40px;
+	}
+
+	#contats a{
+		margin-left: 10vh;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
+	nav ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #1d075f;
+		top: 60px;
+		left: -100%;
+		text-align: center;
+		transition: .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover{
+		background: none;
+		color: #3a0fb1;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+
+	#textI h1{
+		font-size: 35px;
+	}
+
+	#contats a{
+		margin-left: 8vh;
+	}
+}
