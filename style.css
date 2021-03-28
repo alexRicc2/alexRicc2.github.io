@@ -79,10 +79,12 @@ a:hover {
 }
 #contats a{
 	color: white;
+	margin-left: 10vw;	
 	padding: 6px 20px;
 	text-decoration: none;
 	text-align: center;
 }
+
 
 #contats a:hover{
 	background-color: white;
@@ -104,9 +106,7 @@ a:hover {
 		font-size: 40px;
 	}
 
-	#contats a{
-		margin-left: 10vh;
-	}
+	
 }
 @media (max-width: 858px){
 	.checkbtn {
@@ -155,12 +155,15 @@ a:hover {
 	}
 }
 
-@media (max-width: 700px){
+@media (max-width: 550px){
 
 	#contats{
 		flex-direction: column;
 	}
 	#contats a{
 		margin-left: 0px;
+	}
+	#textI h1{
+		font-size:  30px;
 	}
 }
