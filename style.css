@@ -57,10 +57,10 @@ a:hover{
 	color: #3a0fb1;
 }
 .checkbtn {
-	width: 50px;
+	width: 30px;
 	float: right;
-	margin-top: 8px;
-	margin-right: 40px;
+	margin-top: 14px;
+	margin-right: 25px;
 	cursor: pointer;
 	display: block;
 }
@@ -73,15 +73,20 @@ a:hover{
 
 #textI{
 
-	background-color: #b7c3f3;
+	background-image: url('imagens/fundo-escuro2-768.jpeg');
+	background-repeat: no-repeat;
+	color: white;
 	width: 100%;
 	padding-left: 15px;
-	padding-top: 80px;
+	padding-top: 25px;
+	margin-top: 60px;
 	padding-bottom: 15px;
 }
 
+
 #textI h1{
 	font-family: 'Lobster' , cursive;
+	color:white;
 	margin-bottom: 7px;
 	font-size: 30px;
 }
@@ -107,7 +112,7 @@ a:hover{
 #sobre {
 	margin-bottom: 20px;
 }
-#sobre h1{
+.textos h1{
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-bottom: 10px;
@@ -116,10 +121,25 @@ a:hover{
 	font-size: 35px;
 }
 
-#sobre p{
+.textos p{
 	padding-left: 20px;
 	font-family: 'Asap', sans-serif;
 }
+.textos ul{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.textos ol{
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+#Projetos ul li{
+	list-style-type: circle;
+	margin-left: 30px;
+}
+
+
 
 @media screen and (min-width: 768px){
 	label.logo{
@@ -127,7 +147,10 @@ a:hover{
 		padding-left: 50px;
 	}
 
-	
+	#textI{
+		background-image: url('imagens/fundo-escuro2-1200.jpeg');
+		background-size: cover;
+	}
 
 }
 
