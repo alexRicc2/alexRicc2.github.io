@@ -116,6 +116,7 @@ a:hover{
 }
 #side{
 	background-color: #f1f1f1;
+	padding-bottom: 15px;
 }
 
 #sobre {
@@ -158,6 +159,16 @@ a:hover{
 	background: #ddd;
 	text-align: center;
 	padding: 10px;
+}
+#ferramentas{
+	padding-bottom: 10px;
+}
+#imagensF{
+	margin-left: 20px;
+
+}
+a{
+	color: red;
 }
 
 @media screen and (min-width: 768px){
