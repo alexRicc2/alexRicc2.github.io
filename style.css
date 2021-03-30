@@ -22,7 +22,7 @@ nav {
 }
 label.logo {
 	color: white;
-	font-size: 30px;
+	font-size: 35px;
 	line-height: 60px;
 	padding: 0 25px;
 	font-weight: bold;
@@ -109,6 +109,15 @@ a:hover{
 	background-color: white;
 	color: black;
 }
+#row {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+#side{
+	background-color: #f1f1f1;
+}
+
 #sobre {
 	margin-bottom: 20px;
 }
@@ -120,6 +129,7 @@ a:hover{
 	font-family: 'Lobster' , cursive;
 	font-size: 35px;
 }
+
 
 .textos p{
 	padding-left: 20px;
@@ -143,15 +153,53 @@ a:hover{
 
 @media screen and (min-width: 768px){
 	label.logo{
-		font-size: 50px;
-		padding-left: 50px;
+		font-size: 40px;
+		padding-left: 15px;
 	}
 
 	#textI{
 		background-image: url('imagens/fundo-escuro2-1200.jpeg');
 		background-size: cover;
 	}
+	#row, #contats{
+		flex-direction: row;
+	}
 
+	#side{
+		flex: 50%;
+		background-color: #f1f1f1;
+		padding: 10px;
+	}
+	#main{
+		flex: 50%;
+		background-color: white;
+		padding: 10px;
+	}
+	nav ul {
+		position: unset;
+		width: unset;
+		height: unset;
+		background: unset;
+		text-align: unset;
+		transition: unset;
+		float: right;
+		margin-right: 14px;
+	}
+	nav ul li {
+		display: inline-block;
+		line-height: 60px;
+		margin: 0px -1px;
+	}
+	nav ul li a {
+		font-size: 16px;
+	}
+	a:hover{
+		background: #1d075f;
+		color: white;
+	}
+	.checkbtn{
+		display: none;
+	}
 }
 
 
