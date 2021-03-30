@@ -75,7 +75,7 @@ a:hover{
 /* configuraçoes da seçao abaixo do menu */
 #textI{
 
-	background-image: url('imagens/fundo-escuro2-768.jpeg');
+	background-image: url('../imagens/fundo-escuro2-768.jpeg');
 	background-repeat: no-repeat;
 	color: white;
 	width: 100%;
@@ -91,6 +91,9 @@ a:hover{
 	color:white;
 	margin-bottom: 7px;
 	font-size: 30px;
+    text-align: unset;
+    padding: unset;
+    margin-top: unset;
 }
 
 /* aba de Contatos*/
@@ -111,114 +114,41 @@ a:hover{
 	background-color: white;
 	color: black;
 }
-/*Divisao Para responsividade desktop*/
-#row{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-}
-#side{
-	background-color: #f1f1f1;
-	padding-bottom: 15px;
-}
-
-
-
-#sobre {
-	margin-bottom: 20px;
-}
-
-/* Css do site indicado pela classe .textos*/
-.textos h1{
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-bottom: 10px;
-	color: #00afb9;
-	font-family: 'Lobster' , cursive;
-	font-size: 35px;
-}
-
-
-.textos p{
-	padding-left: 20px;
-	font-family: 'Asap', sans-serif;
-}
-.textos ul{
-	margin-top: 10px;
-	margin-left: 20px;
-	margin-bottom: 10px;
-}
-.textos ol{
-	margin-left: 15px;
-	margin-bottom: 10px;
-}
-
-/* Mudança na lista do seçao projetos*/
-#Projetos ul li{
-	list-style-type: circle;
-	margin-left: 30px;
-}
-
-/* Ediçao da imagem unesp*/ 
-#imgUnesp{
-	width: 100%;
-	padding: 10px;
-}
-
-/*edição da seçao de ferramentas */
-#ferramentas{
-	padding-bottom: 10px;
-}
-#imagensF{
-	margin-left: 20px;
-
-}
-/*ediçao dos links*/
-
-a{
-	color: #2a48a8;
-	font-weight: bolder;
-}
 #logoLink{
 	color: white;
 }
-
-/*Rodape */
 .footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 	border-top: 1px solid gray;
 	background: #ddd;
 	text-align: center;
-	padding: 15px;
+	padding: 25px;
+}
+h1{
+    text-align: center; 
+    padding: 30px; 
+    font-size: 50px; 	
+    font-family: 'Lobster' , cursive; 
+    color: #00afb9;
+    margin-top: 20px;
 }
 
-/*Adapatando site para tamanho desktop*/
 
 @media screen and (min-width: 768px){
 
+    h1{
+        margin-top: unset;
+        padding: 5px;
+    }
+
 	#textI{
-		background-image: url('imagens/fundo-escuro2-1200.jpeg');
+		background-image: url('../imagens/fundo-escuro2-1200.jpeg');
 		background-size: cover;
 		padding-bottom: 25px;
 	}
-	/*adapta formato do site para desktop */
-
-	#row, #contats{
-		flex-direction: row;
-	}
-
-	#side{
-		flex: 50%;
-		background-color: #f1f1f1;
-		padding: 20px;
-	}
-	#main{
-		flex: 50%;
-		background-color: white;
-		padding: 20px;
-	}
-
-	/* adapta menu para desktop */
-	label.logo{
+    label.logo{
 		font-size: 40px;
 		padding-left: 15px;
 	}
@@ -248,9 +178,8 @@ a{
 	.checkbtn{
 		display: none;
 	}
-	#imgUnesp{
-		padding: unset;
-	}
+    #contats a{
+        padding: 13px 20px;
+    }
+
 }
-
-
