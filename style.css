@@ -183,14 +183,38 @@ a{
 
 /*Rodape */
 .footer{
+	border-top: 1px solid gray;
 	background: #ddd;
 	text-align: center;
 	padding: 15px;
 }
 
+/*pagina conteudo */
+#Mpagina{
+	padding: 20px;
+
+}
+#minhaFoto{
+	border-radius: 20px; 
+	border: 1px solid black;
+}
+
 /*Adapatando site para tamanho desktop*/
 
 @media screen and (min-width: 768px){
+
+	body{
+		background-color: #ddd;
+	}
+	#Mpagina{
+		width: 1100px;
+		background-color: white;
+		margin: 0px auto 10px auto;
+		box-shadow: 0px 0px 8px black;
+	
+	}
+	#minhaFoto{
+	}
 
 	#textI{
 		background-image: url('imagens/fundo-escuro2-1200.jpeg');
