@@ -195,6 +195,15 @@ a{
 
 @media screen and (min-width: 768px){
 
+	.textos h1{
+		font-size: 42px;
+	}
+	.textos p{
+		font-size: 19px;
+	}
+	.textos ul li p{
+		font-size: 19px;
+	}
 	#textI{
 		background-image: url('imagens/fundo-escuro2-1200.jpeg');
 		background-size: cover;
@@ -239,7 +248,7 @@ a{
 		margin: 0px -1px;
 	}
 	nav ul li a {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	nav ul li a:hover{
 		background: #1d075f;
