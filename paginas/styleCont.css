@@ -118,8 +118,7 @@ a:hover{
 	color: white;
 }
 .footer{
-    position: absolute;
-    bottom: 0px;
+
     width: 100%;
 	border-top: 1px solid gray;
 	background: #ddd;
@@ -134,7 +133,14 @@ h1{
     color: #00afb9;
     margin-top: 20px;
 }
-
+#row{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+#main{
+	flex:100%;
+}
 
 @media screen and (min-width: 768px){
 
