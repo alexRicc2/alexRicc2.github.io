@@ -120,6 +120,7 @@ a:hover{
 .footer{
 
     width: 100%;
+	height: auto;
 	border-top: 1px solid gray;
 	background: #ddd;
 	text-align: center;
